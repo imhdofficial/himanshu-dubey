@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" data-mode="design">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0e9">
+  <meta name="robots" content="noindex,follow">
+  <meta name="description" content="Page not found — Himanshu Dubey portfolio.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data:; media-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; frame-ancestors 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()">
+  <title>404 — Page Not Found | Himanshu Dubey</title>
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="/assets/js/404.js"></script>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="error-page">
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="cursor cursor-dot" aria-hidden="true"></div>
+  <div class="cursor cursor-ring" aria-hidden="true"><span>HOME</span></div>
+
+  <header class="site-header error-header is-scrolled">
+    <a class="brand magnetic" href="/" aria-label="Himanshu Dubey — Home">
+      <span class="brand-mark">HD</span>
+      <span class="brand-name">Himanshu Dubey</span>
+    </a>
+    <div class="error-header-label">ERROR / 404</div>
+    <a class="header-mail magnetic" href="mailto:hd849829@gmail.com">Contact <span>↗</span></a>
+  </header>
+
+  <main class="error-main">
+    <section class="error-hero section-shell">
+      <div class="error-index">404 / ROUTE NOT FOUND</div>
+      <div class="error-grid">
+        <div class="error-copy">
+          <h1><span>This page</span><em>left the interface.</em></h1>
+          <p>The URL does not match an existing page. The portfolio is still exactly where it should be.</p>
+          <div class="error-actions">
+            <a class="button button-dark magnetic" href="/"><span>Back to home</span><i>↗</i></a>
+            <a class="button button-line magnetic" href="/#work"><span>View selected work</span><i>↓</i></a>
+          </div>
+        </div>
+
+        <div class="error-visual" aria-hidden="true">
+          <div class="error-orbit error-orbit-a"></div>
+          <div class="error-orbit error-orbit-b"></div>
+          <div class="error-code-card">
+            <small>HTTP STATUS</small>
+            <strong>404</strong>
+            <span>NOT_FOUND</span>
+          </div>
+          <div class="error-terminal">
+            <div><i></i><i></i><i></i><b>route-check.js</b></div>
+            <pre><code><span>01</span> const route = request.path;</code>
+<code><span>02</span> const page  = find(route);</code>
+<code><span>03</span></code>
+<code><span>04</span> if (!page) {</code>
+<code><span>05</span>   return home();</code>
+<code><span>06</span> }</code></pre>
+          </div>
+        </div>
+      </div>
+
+      <div class="error-path">
+        <span>REQUESTED PATH</span>
+        <code data-bad-path>/unknown-route</code>
+      </div>
+    </section>
+  </main>
+
+  <footer class="error-footer section-shell">
+    <span>Himanshu Dubey</span>
+    <span>Design → Code → Ship</span>
+    <span>© <span data-year></span></span>
+  </footer>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
