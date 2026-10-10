@@ -1,58 +1,79 @@
-# Himanshu Dubey Portfolio — V4
+# Himanshu Dubey — Portfolio
 
-Static HTML/CSS/JavaScript portfolio prepared for GitHub Pages.
+A modern portfolio website showcasing selected work across product design, frontend development, Shopify commerce, AI-assisted interfaces, and testing & QA.
 
-V4 upgrades the six capability pages with high-resolution, topic-specific visual media, tool/technology marks, an AI motion panel, refined mobile presentation, and corrected hero portrait framing.
+Built with static HTML, CSS and JavaScript and deployed on GitHub Pages.
 
-# Himanshu Dubey — Portfolio V3
+## Live Website
 
-Static HTML/CSS/JavaScript portfolio designed for GitHub Pages. No PHP or build step is required.
+[himanshu-dubey.com](https://himanshu-dubey.com)
 
-## Run locally
+## Highlights
 
-Open `index.html` directly, or run a small static server:
+- Design ↔ Code interactive experience
+- Responsive and mobile-first UX
+- Custom interactions and motion
+- Dedicated project case studies
+- Capability deep-dives
+- Product design and frontend engineering workflows
+- Shopify commerce experience
+- AI-assisted product interfaces
+- Testing & QA approach
+- Clean public URLs
+- Custom 404 page
+- GitHub Pages compatible
+- No framework or build step required
 
-```bash
-python3 -m http.server 8000
-```
+## Selected Work
 
-Then open `http://localhost:8000`.
+- AI Product Chatbot
+- Loyalty Program
+- Mewaram
+- E-Idea Box
 
-## Main pages
+## Capabilities
 
-- `index.html`
-- Project case studies: `case-study/`
-  - AI Product Chatbot
-  - Loyalty Program
-  - Mewaram
-  - E-Idea Box
-- Capability deep-dives: `expertise/`
-  - Product Design
-  - Frontend Engineering
-  - Shopify Commerce
-  - Platforms & Integration
-  - AI-Assisted Execution
-  - Testing & QA
-- Process deep-dives: `process/`
-  - Understand
-  - Design
-  - Build
-  - Verify
+- Product & UI/UX Design
+- Frontend Engineering
+- Shopify Commerce
+- Platforms & Integration
+- AI-Assisted Execution
+- Testing & QA
 
-## GitHub Pages
+## Process
 
-Push the folder contents to the repository root. In GitHub, open Settings → Pages, select **Deploy from a branch**, choose the main branch and `/ (root)`.
+1. Understand
+2. Design
+3. Build
+4. Verify
 
+## Technology
 
-## Clean URLs and 404 fallback
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- Git & GitHub
+- Shopify
+- Liquid
+- Laravel
+- PHP
+- WordPress
+- Magento
+- REST APIs
+- Figma
 
-The public site keeps clean portfolio URLs without exposing `.html` in the address bar.
+## Project Structure
 
-Examples:
-
-- `/case-study/mewaram`
-- `/expertise/product-design`
-- `/expertise/testing-qa`
-- `/process/design`
-
-The existing static `.html` files remain in place. `assets/js/main.js` cleans the address bar after page load, while `404.html` and `assets/js/404.js` restore direct visits and refreshes on GitHub Pages. Unknown routes show the custom portfolio 404 page.
+```text
+/
+├── index.html
+├── 404.html
+├── CNAME
+├── case-study/
+├── expertise/
+├── process/
+└── assets/
+    ├── css/
+    ├── js/
+    └── img/
